@@ -1,0 +1,10 @@
+<div class="container">
+  <h1>All my restaurants</h1>
+  <ul>
+    <% @restaurants.each do |restaurant| %>
+    <div>
+      <li><%= restaurant.name %> <%= restaurant.category %></li>
+    </div>
+    <% end %>
+  </ul>
+</div>
