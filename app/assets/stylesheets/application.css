@@ -13,3 +13,33 @@
  *= require_tree .
  *= require_self
  */
+
+ #white {
+  color:white;
+ }
+
+ a {
+  text-decoration: none;
+  /* color:blue; */
+ }
+
+ h1 {
+  margin: 30px auto;
+  font-family: 'Bungee Spice', cursive;
+ }
+
+ h2 {
+  font-family: 'Bungee Spice', cursive;
+ }
+
+ li {
+  margin: 7px 0px;
+ }
+
+ .container {
+  margin-top: 40px;
+ }
+
+ .bg-custom-1 {
+  background-image: linear-gradient(15deg, #ff1919 0%, #fbff26 100%);
+  }
